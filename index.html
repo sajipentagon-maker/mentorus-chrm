@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Certified Human Resource Manager (CHRM) by Mentorus. Strategic HR, analytics and AI for working HR leaders. CPD accredited. AED 2,200." />
+  <title>Mentorus CHRM Landing page</title>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Sticky Bar -->
+  <div class="sticky-bar" id="stickyBar">
+    <div class="sticky-bar-inner">
+      <span class="sticky-brand">CHRM <span class="price">· AED 2,200 <s>4,400</s></span></span>
+      <div class="sticky-actions">
+        <a href="https://wa.me/971561302636?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20the%20CHRM%20program%20by%20Mentorus." target="_blank" rel="noreferrer" aria-label="WhatsApp" class="icon-btn wa">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </a>
+        <a href="tel:+971561302636" aria-label="Call" class="icon-btn call">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="#enroll-final" class="btn-apply">Apply now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <img class="hero-bg" src="images/hero-boardroom.jpg" alt="Modern boardroom overlooking a city at dawn" />
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="logo">
+          <img src="images/logo-new.png" alt="">
+        </div>
+        <div class="hero-badges">
+          <span class="badge badge-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
+            CPD accredited certificate
+          </span>
+          <span class="badge badge-green">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+            50% off · AED 2,200
+          </span>
+        </div>
+        <h1>CHRM: Architect the <span class="green">future of work.</span></h1>
+        <p class="sub">Transform your HR career with analytics and artificial intelligence. The Certified Human Resource Manager program by Mentorus builds strategic, data-driven HR leaders.</p>
+        <ul>
+          <li><span class="slash">/</span>Strategic HR, workforce planning and AI in HR</li>
+          <li><span class="slash">/</span>HR analytics, dashboards and economic intelligence</li>
+          <li><span class="slash">/</span>Case studies, quizzes and open-book assessment</li>
+        </ul>
+      </div>
+      <div class="enroll-card" id="enroll">
+        <h2>Reserve your seat today</h2>
+        <p class="price-line">Was <s>AED 4,400</s> <b>AED 2,200</b>. Takes 30 seconds.</p>
+        <form class="lead-form" id="contact_form" action="contactform.php" method="post" novalidate>
+          <p class="form-message" role="status" aria-live="polite"></p>
+          <div class="field">
+            <label class="visually-hidden" for="enroll-name">Full name</label>
+            <input id="enroll-name" name="name" type="text" placeholder="Full name" autocomplete="name" required aria-describedby="enroll-name-error" />
+            <p class="field-error" id="enroll-name-error"></p>
+          </div>
+          <div class="field">
+            <label class="visually-hidden" for="enroll-email">Work email</label>
+            <input id="enroll-email" name="email" type="email" placeholder="Work email" autocomplete="email" required aria-describedby="enroll-email-error" />
+            <p class="field-error" id="enroll-email-error"></p>
+          </div>
+          <div class="field">
+            <label class="visually-hidden" for="enroll-phone">Phone / WhatsApp</label>
+            <input id="enroll-phone" name="phone" type="tel" placeholder="Phone / WhatsApp" autocomplete="tel" required aria-describedby="enroll-phone-error" />
+            <p class="field-error" id="enroll-phone-error"></p>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label class="visually-hidden" for="enroll-title">Job title</label>
+              <input id="enroll-title" name="title" type="text" placeholder="Job title" autocomplete="organization-title" />
+            </div>
+            <div class="field">
+              <label class="visually-hidden" for="enroll-experience">Experience</label>
+              <select id="enroll-experience" name="experience">
+                <option value="">Experience</option>
+                <option>0-2 years</option>
+                <option>3-5 years</option>
+                <option>6-10 years</option>
+                <option>10+ years</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit">Secure my seat
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+          <p class="fine">No spam. Free callback from our admissions advisor.</p>
+        </form>
+        <div class="form-divider">
+          <p class="prefer">Prefer to talk? Reach us directly.</p>
+          <div class="contact-ctas">
+            <a href="https://wa.me/971561302636?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20the%20CHRM%20program%20by%20Mentorus." target="_blank" rel="noreferrer" class="cta cta-wa">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              WhatsApp
+            </a>
+            <a href="tel:+971561302636" class="cta cta-call-light">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +971 561 302 636
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        <div><div class="v">6</div><div class="l">Strategic modules</div></div>
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
+        <div><div class="v">CPD</div><div class="l">Accredited certificate</div></div>
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="5" x2="5" y2="19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
+        <div><div class="v">50%</div><div class="l">Off this cohort</div></div>
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l-6-6 6-6"/><path d="M3 12h12"/><path d="M16 4l4 4-4 4"/></svg>
+        <div><div class="v">100%</div><div class="l">Case-study based</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Outcomes -->
+  <section class="section section--bg">
+    <div class="container-lg">
+      <p class="eyebrow">What you will master</p>
+      <h2 class="title">Turn HR from a back-office function into a growth engine.</h2>
+      <div class="outcomes-grid">
+        <div class="outcome-card"><h3>Workforce planning</h3><p>Recruitment funnel analysis, manpower forecasting, talent supply planning and HR KPIs.</p></div>
+        <div class="outcome-card"><h3>Performance systems</h3><p>SMART KPIs, balanced scorecard, KPI weightage and performance calibration.</p></div>
+        <div class="outcome-card"><h3>Compensation strategy</h3><p>Salary benchmarking, payroll cost, benefits planning and cost-of-living analysis.</p></div>
+        <div class="outcome-card"><h3>AI &amp; HR technology</h3><p>Use AI to improve recruitment, learning, engagement and HR shared services.</p></div>
+        <div class="outcome-card"><h3>HR analytics dashboards</h3><p>Track turnover, absenteeism and engagement, and report to leadership with confidence.</p></div>
+        <div class="outcome-card"><h3>Audit &amp; governance</h3><p>Evidence collection, compliance review and corrective action planning.</p></div>
+      </div>
+      <div class="built-for">
+        <h3>Built for</h3>
+        <div class="bf-grid">
+          <div class="bf-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>HR professionals &amp; executives</div>
+          <div class="bf-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Managers &amp; team leaders</div>
+          <div class="bf-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>OB professionals &amp; graduates</div>
+          <div class="bf-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Career-transition candidates</div>
+        </div>
+        <p class="prereq">Prerequisites: CHRP or experience in the field.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet your trainers -->
+  <section class="block trainers">
+    <div class="container-lg">
+      <div class="sec-head">
+        <p class="eyebrow">Meet your trainers</p>
+        <h2>Learn from senior HR professionals with real industry experience</h2>
+        <p>Our trainers bring decades of hands-on HR leadership across Dubai, the UAE and international markets — so every concept is grounded in practice, not theory.</p>
+      </div>
+      <div class="tr-grid">
+        <article class="tr-card">
+          <div class="tr-ic">💼</div>
+          <div>
+            <div><span class="exp">30+ years</span> industry experience</div>
+            <div class="role">Senior HR leader</div>
+            <p>Strategic HR, organizational development and governance across the UAE and Gulf region.</p>
+            <p class="tr-badge">🏅 UAE &amp; global HR practice</p>
+          </div>
+        </article>
+        <article class="tr-card">
+          <div class="tr-ic">💼</div>
+          <div>
+            <div><span class="exp">15+ years</span> industry experience</div>
+            <div class="role">HR practitioner &amp; facilitator</div>
+            <p>Talent management, HR analytics and AI-integrated HR operations in modern workplaces.</p>
+            <p class="tr-badge">🏅 UAE &amp; global HR practice</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google reviews -->
+  <section class="block rev">
+    <div class="container-lg">
+      <div class="rev-top">
+        <div class="sec-head" style="margin-bottom:0">
+          <p class="eyebrow">Google reviews</p>
+          <h2>Rated by HR professionals who completed the program</h2>
+        </div>
+        <div class="rev-stat">
+          <div class="center"><div class="big">4.9 ★</div><div class="stars">★★★★★</div><div class="rev-stat-l"><a href="https://www.google.com/maps/place/MENTORUS+FZ-LLC/@24.9639927,54.6582962,9z/data=!4m8!3m7!1s0x8bb00d5e38cc85c3:0x8980a2ebb68f536d!8m2!3d24.9641992!4d55.317707!9m1!1b1!16s%2Fg%2F11ygdz2hsh?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Google reviews</a></div></div>
+          <div class="div"></div>
+          <div class="center"><div class="big">500+</div><div class="rev-stat-l">students enrolled till now</div></div>
+        </div>
+      </div>
+      <div class="rev-grid">
+        <article class="rev-card"><div class="stars">★★★★★</div><p>"I have successfully completed Digital Marketing training program with mentorus and it’s been really, very wonderful learning journey with them. Trainers dedication and knowledge, experience helped me a lot in the completion, of course practically. Must Recommend."</p><div class="rev-author"><div class="rev-avatar">V</div><div><strong>Vatsal Acharya</strong><br><span style="font-size:13px;color:#6b6890">a month ago</span></div></div></article>
+        <article class="rev-card"><div class="stars">★★★★★</div><p>"I searched for many institutes offering CHRM courses and eventually decided to enroll with Mentorus. Looking back, I can confidently say that it was the right choice."</p><div class="rev-author"><div class="rev-avatar">C</div><div><strong>Christy Johanna</strong><br><span style="font-size:13px;color:#6b6890">4 months ago</span></div></div></article>
+        <article class="rev-card"><div class="stars">★★★★★</div><p>"I had a great experience with MentorUs Consultancy throughout my CHRM exam journey. Their team was professional, responsive, and supportive from start to finish. The guidance and resources they provided helped me prepare with confidence, and I'm happy to share that I successfully passed the CHRM exam. "</p><div class="rev-author"><div class="rev-avatar">J</div><div><strong>Jecel Macarayon</strong><br><span style="font-size:13px;color:#6b6890">3 months ago</span></div></div></article>
+        <article class="rev-card"><div class="stars">★★★★★</div><p>"A truly rewarding learning journey that enhanced my HR knowledge and professional skills. Special thanks to Mr. Akshat for his continuous support and guidance, and heartfelt gratitude to Mr. Pinaki Chakraborty for his inspiring mentorship and valuable insights throughout the programme."</p><div class="rev-author"><div class="rev-avatar">N</div><div><strong>Nosheen Mussarat</strong><br><span style="font-size:13px;color:#6b6890">2 months ago</span></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum -->
+  <section class="curriculum">
+    <div class="curr-head">
+      <div>
+        <p class="eyebrow">The competency matrix</p>
+        <h2 class="title">Six modules. One strategic blueprint.</h2>
+      </div>
+      <a href="files/CHRM-Course-Outline.pdf" target="_blank" rel="noreferrer" class="download-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download course overview
+      </a>
+    </div>
+    <div class="modules-scroll">
+      <article class="module-card"><span class="num">01</span><h3>Strategic Human Resources Integration</h3><p>Integrate every HR function with business objectives, market conditions, economic factors and operational requirements.</p></article>
+      <article class="module-card"><span class="num">02</span><h3>Organizational Development &amp; Sustainable Structuring</h3><p>Design scalable, sustainable organizational systems from scratch: structures, reporting lines, SOPs and governance.</p></article>
+      <article class="module-card"><span class="num">03</span><h3>AI Integrated Operational Excellence</h3><p>Bring AI and Lean HR into recruitment, learning, engagement, documentation and workflow automation.</p></article>
+      <article class="module-card"><span class="num">04</span><h3>HR Budgets &amp; Audit</h3><p>Master HR budgeting, audit procedures, compliance review and risk management for strategic HR governance.</p></article>
+      <article class="module-card"><span class="num">05</span><h3>Global Human Resource Management</h3><p>Operate across countries, labour markets and cultures: global mobility, expatriates and cultural intelligence.</p></article>
+      <article class="module-card"><span class="num">06</span><h3>Advanced HR Analytics &amp; Economic Intelligence</h3><p>Link HR metrics to GDP, inflation and labour-market trends, and build strategic HR dashboards for executives.</p></article>
+    </div>
+  </section>
+
+  <!-- Credibility -->
+  <section class="section section--white">
+    <div class="container-lg">
+      <div class="cred-banner">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <p class="big">Join 500+ HR professionals already enrolled</p>
+        <p class="sub">Executives, managers, team leaders and career-transition candidates across the region trust CHRM to lead modern HR transformation.</p>
+      </div>
+      <div class="cred-grid">
+        <div class="cred-card"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg><h3>CPD accredited</h3><p>Earn an internationally recognised Continuing Professional Development certificate on completion.</p></div>
+        <div class="cred-card"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><h3>By Mentorus</h3><p>A structured intermediate-level professional development program built for working HR professionals.</p></div>
+        <div class="cred-card"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><h3>Practical assessment</h3><p>Case studies, scenario discussions, quizzes, assignments and an open-book assessment, no guesswork.</p></div>
+        <div class="cred-card"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg><h3>Career advancement</h3><p>Positions you for HR leadership roles with a competitive edge in the evolving talent market.</p></div>
+      </div>
+      <div class="cred-tags">
+        <span class="cred-tag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Intermediate level</span>
+        <span class="cred-tag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg> CPD accredited</span>
+        <span class="cred-tag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Open-book assessment</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Your credential -->
+  <section class="block credential">
+    <div class="container-lg">
+      <div class="crd-grid">
+        <div>
+          <div class="sec-head" style="margin-bottom:0">
+            <p class="eyebrow">Your credential</p>
+            <h2>Earn a CPD-accredited certificate on completion</h2>
+            <p>Every learner who completes the CHRM program receives an internationally recognised CPD-accredited certificate from Mentorus — verifiable, career-advancing proof of your strategic HR expertise.</p>
+          </div>
+          <ul class="crd-list">
+            <li>🛡️ Accredited by the CPD Certification Service</li>
+            <li>🏅 Verifiable certificate — recognised by employers</li>
+            <li>🏅 Adds real weight to your professional profile</li>
+          </ul>
+        </div>
+        <div>
+          <div class="crd-frame">
+            <img src="images/chrm-certificate.jpg" alt="Sample CHRM certificate of training completion" loading="lazy" />
+          </div>
+          <p class="crd-note">Sample certificate — your name and completion date will appear here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment options -->
+  <section class="pay">
+    <div class="container-lg">
+      <div class="pay-ic">🛡️</div>
+      <p class="pay-title">Flexible, secure payment options</p>
+      <p class="pay-sub">Pay your way with our trusted payment partners</p>
+      <div class="pay-logos">
+        <div class="pay-logo"><img src="images/payments/tabby.svg" alt="Tabby" /></div>
+        <div class="pay-logo"><img src="images/payments/tamara.svg" alt="Tamara" /></div>
+        <div class="pay-logo"><img src="images/payments/omnispay.png" alt="Omnispay" /></div>
+        <div class="pay-logo"><img src="images/payments/myfatoorah.svg" alt="MyFatoorah" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer -->
+  <section class="offer">
+    <div class="offer-grid">
+      <img class="offer-img" src="images/offer-leader.jpg" alt="HR leader looking out of a glass window" />
+      <div>
+        <p class="eyebrow">Your career advancement pathway</p>
+        <h2 class="title">Position yourself for HR leadership.</h2>
+        <p class="offer-copy">Earn a CPD accredited certificate and gain a competitive advantage in today's evolving talent market.</p>
+        <div class="offer-card">
+          <div class="cert"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg> CHRM · CPD accredited</div>
+          <div class="price-row"><span class="now">AED 2,200</span><s>AED 4,400</s></div>
+          <a href="#enroll-final" class="callback">Request a callback
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <div class="ctas-wrap">
+            <div class="contact-ctas">
+              <a href="https://wa.me/971561302636?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20the%20CHRM%20program%20by%20Mentorus." target="_blank" rel="noreferrer" class="cta cta-wa">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                WhatsApp
+              </a>
+              <a href="tel:+971561302636" class="cta cta-call-light">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +971 561 302 636
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container-md">
+      <h2>Frequently asked questions</h2>
+      <div class="accordion" id="faq">
+        <div class="acc-item">
+          <button class="acc-trigger">Who is the CHRM program for?<span class="chev">&#8964;</span></button>
+          <div class="acc-content"><div class="acc-content-inner">HR executives, OB professionals, graduates, team leaders and career-transition candidates seeking strategic HR expertise.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-trigger">Are there prerequisites?<span class="chev">&#8964;</span></button>
+          <div class="acc-content"><div class="acc-content-inner">Yes. CHRP certification or experience in the HR field.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-trigger">Will I receive a certificate?<span class="chev">&#8964;</span></button>
+          <div class="acc-content"><div class="acc-content-inner">Yes. On completion you receive a CPD Accredited Certificate.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-trigger">How am I assessed?<span class="chev">&#8964;</span></button>
+          <div class="acc-content"><div class="acc-content-inner">Through practical case studies, scenario-based discussions, quizzes, assignments and an open-book assessment.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-trigger">What does it cost?<span class="chev">&#8964;</span></button>
+          <div class="acc-content"><div class="acc-content-inner">The program is currently AED 2,200, down from AED 4,400.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta" id="enroll-final">
+    <div class="final-grid">
+      <div class="final-text">
+        <h2>Your seat in the next generation of HR leaders.</h2>
+        <p>CHRM at AED 2,200 instead of AED 4,400. Leave your details and we'll call you back.</p>
+      </div>
+      <div class="enroll-card">
+        <form class="lead-form" id="enroll-final-form" action="contactform.php" method="post" novalidate>
+          <p class="form-message" role="status" aria-live="polite"></p>
+          <div class="field">
+            <label class="visually-hidden" for="final-name">Full name</label>
+            <input id="final-name" name="name" type="text" placeholder="Full name" autocomplete="name" required aria-describedby="final-name-error" />
+            <p class="field-error" id="final-name-error"></p>
+          </div>
+          <div class="field">
+            <label class="visually-hidden" for="final-email">Work email</label>
+            <input id="final-email" name="email" type="email" placeholder="Work email" autocomplete="email" required aria-describedby="final-email-error" />
+            <p class="field-error" id="final-email-error"></p>
+          </div>
+          <div class="field">
+            <label class="visually-hidden" for="final-phone">Phone / WhatsApp</label>
+            <input id="final-phone" name="phone" type="tel" placeholder="Phone / WhatsApp" autocomplete="tel" required aria-describedby="final-phone-error" />
+            <p class="field-error" id="final-phone-error"></p>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label class="visually-hidden" for="final-title">Job title</label>
+              <input id="final-title" name="title" type="text" placeholder="Job title" autocomplete="organization-title" />
+            </div>
+            <div class="field">
+              <label class="visually-hidden" for="final-experience">Experience</label>
+              <select id="final-experience" name="experience">
+                <option value="">Experience</option>
+                <option>0-2 years</option>
+                <option>3-5 years</option>
+                <option>6-10 years</option>
+                <option>10+ years</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit">Secure my seat
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+          <p class="fine">No spam. Free callback from our admissions advisor.</p>
+        </form>
+        <div class="form-divider">
+          <p class="prefer">Prefer to talk? Reach us directly.</p>
+          <div class="contact-ctas">
+            <a href="https://wa.me/971561302636?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20the%20CHRM%20program%20by%20Mentorus." target="_blank" rel="noreferrer" class="cta cta-wa">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              WhatsApp
+            </a>
+            <a href="tel:+971561302636" class="cta cta-call-light">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +971 561 302 636
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>&copy; Mentorus · CHRM Certified Human Resource Manager · CPD accredited</span>
+      <a href="https://mentorus.ae">mentorus.ae</a>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta" id="floatingCta">
+    <div class="floating-inner">
+      <a href="https://wa.me/971561302636?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20the%20CHRM%20program%20by%20Mentorus." target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp" class="float-wa">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        <span class="wa-label">WhatsApp</span>
+      </a>
+      <a href="tel:+971561302636" aria-label="Call us" class="float-call">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </a>
+      <a href="#enroll-final" class="float-enquire">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+        Enquire
+      </a>
+    </div>
+  </div>
+  <script src="js/smoothscroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contactform.js"></script>
+</body>
+</html>
